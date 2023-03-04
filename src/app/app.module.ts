@@ -1,6 +1,4 @@
 import { CollectionsModule } from './collections/collections.module';
-import { ElementsModule } from './elements/elements.module';
-import { ElementsHomeComponent } from './elements/elements-home/elements-home.component';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
@@ -11,7 +9,7 @@ import { NotFoundComponent } from './not-found/not-found.component';
 
 @NgModule({
   declarations: [AppComponent, HomeComponent, NotFoundComponent],
-  imports: [BrowserModule, ElementsModule, CollectionsModule, AppRoutingModule],
+  imports: [BrowserModule, CollectionsModule, AppRoutingModule],
   providers: [],
   bootstrap: [AppComponent],
 })
