@@ -1,3 +1,4 @@
+import { CollectionsModule } from './collections/collections.module';
 import { ElementsModule } from './elements/elements.module';
 import { ElementsHomeComponent } from './elements/elements-home/elements-home.component';
 import { NgModule } from '@angular/core';
@@ -8,7 +9,7 @@ import { AppComponent } from './app.component';
 
 @NgModule({
   declarations: [AppComponent],
-  imports: [BrowserModule, AppRoutingModule, ElementsModule],
+  imports: [BrowserModule, AppRoutingModule, ElementsModule, CollectionsModule],
   providers: [],
   bootstrap: [AppComponent],
 })
