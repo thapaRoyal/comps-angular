@@ -1,10 +1,13 @@
+import { CollectionHomeComponent } from './collection-home/collection-home.component';
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
-const routes: Routes = [];
+const routes: Routes = [
+  { path: 'collections', component: CollectionHomeComponent },
+];
 
 @NgModule({
   imports: [RouterModule.forChild(routes)],
-  exports: [RouterModule]
+  exports: [RouterModule],
 })
-export class CollectionsRoutingModule { }
+export class CollectionsRoutingModule {}
