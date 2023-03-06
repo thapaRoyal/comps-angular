@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { PlaceholderComponent } from './placeholder.component';
+import { CollectionsHomeComponent } from './collections-home.component';
 
-describe('PlaceholderComponent', () => {
-  let component: PlaceholderComponent;
-  let fixture: ComponentFixture<PlaceholderComponent>;
+describe('CollectionsHomeComponent', () => {
+  let component: CollectionsHomeComponent;
+  let fixture: ComponentFixture<CollectionsHomeComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ PlaceholderComponent ]
+      declarations: [ CollectionsHomeComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(PlaceholderComponent);
+    fixture = TestBed.createComponent(CollectionsHomeComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
